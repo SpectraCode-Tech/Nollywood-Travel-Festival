@@ -3,11 +3,12 @@ import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
-import spk1 from "../assets/Genevive.webp";
+import spk1 from "../assets/Genevive.jpg";
 import spk2 from "../assets/Afolayan-2.jpg";
 import spk3 from "../assets/Funke-Akindele.jpg";
 import spk4 from "../assets/Ngozi-Onwurah.webp";
+import spk5 from "../assets/Richard-Mofe-Damijo.jpg";
+import spk6 from "../assets/mo-abudu.jpeg";
 
 const speakers = [
   {
@@ -37,6 +38,20 @@ const speakers = [
     image: spk4,
     description:
       "International filmmaker bridging African culture through powerful films."
+  },
+  {
+    name: "Richard Mofe-Damijo (RMD)",
+    role: "Veteran Actor & Cultural Icon",
+    image: spk5,
+    description:
+      "Legendary actor and cultural influencer with decades of contribution to Nigerian cinema."
+  },
+  {
+    name: "Mo Abudu",
+    role: "Media Executive & Producer",
+    image: spk6,
+    description:
+      "Founder of EbonyLife Studios, globally recognized for elevating African storytelling."
   }
 ];
 

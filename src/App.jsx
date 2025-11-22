@@ -3,7 +3,6 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Speakers from './Components/Speakers'
 import Register from './Components/Register'
-import Contacts from './Components/Contacts'
 import Footer from './Components/Footer'
 import OrganizerSlider from './Components/Organizers'
 import Gallery from './Components/Gallery'
@@ -22,7 +21,6 @@ const App = () => {
       <Films />
       <Gallery />
       <Sponsors />
-      <Contacts />
       <Footer />
     </div>
   )

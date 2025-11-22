@@ -72,7 +72,7 @@ const Hero = () => {
               <h3>{slide.title}</h3>
               <h5>{slide.subtitle}</h5>
               <p>{slide.paragraph}</p> 
-              <Button variant="primary" style={{borderRadius: '9999px'}}>Book Your Ticket Now</Button>
+              <Button variant="primary" style={{borderRadius: '9999px'}}><a style={{textDecoration:'none', color:'white'}} target='_blank' href='https://www.eventbrite.com/e/newcomers-festival-2026-tickets-1934354960759?aff=ebdssbdestsearch&keep_tld=1'>Book Your Ticket Now</a></Button>
             </Carousel.Caption>
                
               </Carousel.Item>
