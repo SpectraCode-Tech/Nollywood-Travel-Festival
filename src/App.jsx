@@ -8,7 +8,7 @@ import Footer from './Components/Footer'
 import OrganizerSlider from './Components/Organizers'
 import Gallery from './Components/Gallery'
 import Sponsors from './Components/Sponsors'
-// import Films from './Components/Films'
+import Films from './Components/Films'
 
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
       <OrganizerSlider />
       <Speakers />
       <Register />
-      {/* <Films /> */}
+      <Films />
       <Gallery />
       <Sponsors />
       <Contacts />

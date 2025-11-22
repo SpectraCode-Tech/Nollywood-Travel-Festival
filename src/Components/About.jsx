@@ -15,39 +15,38 @@ const About = () => {
 
   return (
     <div>
-      <Container fluid>
-        <Row className='p-5 align-items-center gap-3'>
-          <Col>
-            <a 
-              href="https://logwork.com/countdown-timer"
-              className="countdown-timer"
-              data-timezone="Africa/Lagos"
-              data-date="2026-01-25 12:06"
-            >
-            &nbsp;
-            </a>
-          </Col>
-          <Col className='text-center'>
-          <h3 className='fs-1'>NTFF2026 Germany</h3>
-          <p><strong>Theme: </strong>Stories That Travel</p>
-          </Col>
-          <Col><Button variant="primary">Register</Button></Col>
-        </Row>
-        <Row className='bg-black p-5 text-white align-items-center gap-3'>
-          <Col style={{textAlign:'justify'}} md={6}  ><h1>About the Festival</h1>
-          <p className=''>
-            The Nollywood Travel Film Festival (NTFF) returns on January 25, 2026, as Nigeria’s premier 
-            celebration of cinema and culture. Founded in 2020, NTFF brings together filmmakers, actors, 
-            producers, travel enthusiasts, and audiences from across Africa and beyond. The festival aims 
-            to bridge the worlds of film and travel by showcasing the beauty of Nigerian landscapes, 
-            culture, and stories through the lens of cinema.
+      <Container>
+        <Row
+        className="my-5 p-5 align-items-center text-white"
+        style={{
+          background: "linear-gradient(90deg, #28a745, #fd7e14)",
+          borderRadius: "10px",
+        }}
+      >
+        {/* LEFT COLUMN - Countdown & Button */}
+        <Col md={6} className="text-center mb-3 mb-md-0">
+          <a
+            href="https://logwork.com/countdown-timer"
+            className="countdown-timer d-block mb-3"
+            data-timezone="Africa/Lagos"
+            data-date="2026-01-25 09:00"
+            style={{ color: "#fff", fontWeight: "bold", fontSize: "1.2rem" }}
+          >
+            Countdown to Festival
+          </a>
+          <Button variant="light" size="lg" className="fw-bold">
+            Register Now
+          </Button>
+        </Col>
+
+        {/* RIGHT COLUMN - Title & Theme */}
+        <Col md={6} className="text-center">
+          <h3 className="fs-1 fw-bold">NTFF 2026 – Germany</h3>
+          <p className="fs-5">
+            <strong>Theme:</strong> Stories That Travel – Celebrating Films that Inspire and Connect Cultures
           </p>
-          <p style={{backgroundColor:'rgb(180, 199, 7)'}} className='p-3 text-black '>Our festival is not just about films – it’s about experiences. Attendees enjoy exclusive screenings, panel discussions with Nollywood’s brightest talents, masterclasses on filmmaking and storytelling, and curated travel experiences that highlight Nigeria’s rich
-            cultural heritage. Whether you are a filmmaker, a cinephile, or a traveler seeking inspiration, NTFF is the event for you.</p>
-            </Col>
-          <Col><img src={aboutimg} width='100%' alt="" /></Col>
-        </Row>
-      </Container>
+        </Col>
+      </Row>``      </Container>
     </div>
   );
 };
