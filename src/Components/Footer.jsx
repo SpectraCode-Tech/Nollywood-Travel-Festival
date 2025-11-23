@@ -11,7 +11,7 @@ import facebook from '../assets/facebook.png';
 function Footer() {
     return(
         <>
-        <Container fluid>
+        <Container fluid className='contact bg-orange'>
         <Row className='p-5 gap-5'>
           <Col>
           <h2>Send Us a Message!</h2>
@@ -30,7 +30,12 @@ function Footer() {
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
       </Form.Group>
-        <p><textarea name="Message" id="" className='w-100'></textarea></p>
+      <label>Message</label>
+         <Form.Control
+          as="textarea"
+          placeholder="Leave a comment here"
+          style={{ height: '100px', marginBottom: "20px" }}
+        />
       <Button variant="primary" type="submit">
         Submit
       </Button>

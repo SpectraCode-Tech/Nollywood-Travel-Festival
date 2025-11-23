@@ -30,8 +30,8 @@ const Gallery = () => {
 
   return (
     <section className=" py-5 bg-black">
-      <h2 className="text-center fw-bold mb-4">Event Gallery</h2>
-      <p className="text-center mb-4">
+      <h2 className="text-center fw-bold mb-4 text-white">Event Gallery</h2>
+      <p className="text-center mb-4 text-white">
         Explore moments from our previous festival editions.
       </p>
 
